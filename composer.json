@@ -1,0 +1,20 @@
+{
+    "name": "namu/contact",
+    "description": "send email to admin and save contact lead in database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Namu\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Namu\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
