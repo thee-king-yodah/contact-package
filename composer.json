@@ -16,5 +16,7 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "namu/contact":"1.0@dev"
+    }
 }
